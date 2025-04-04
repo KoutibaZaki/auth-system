@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invalid 2FA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .invalid-2fa-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .invalid-2fa-container h2 {
+            font-size: 24px;
+            color: #d9534f;
+            margin-bottom: 20px;
+        }
+
+        .invalid-2fa-container p {
+            font-size: 16px;
+            color: #d9534f;
+            margin-bottom: 20px;
+        }
+
+        .invalid-2fa-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f0ad4e;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .invalid-2fa-container a:hover {
+            background-color: #ec971f;
+        }
+    </style>
+</head>
+<body>
+    <div class="invalid-2fa-container">
+        <h2>Invalid 2FA Code</h2>
+        <p>The 2FA code you entered is incorrect. Please try again.</p>
+        <a href="/2fa">Try Again</a>
+    </div>
+</body>
+</html>
